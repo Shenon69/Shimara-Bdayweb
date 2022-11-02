@@ -1,4 +1,5 @@
-# Shimara-Bdayweb
+https://shimara.netlify.app/
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5005132a-c19d-4fdc-b499-cb05b7bfaa54/deploy-status)](https://app.netlify.com/sites/shimara/deploys)
 
 This is the link to the figma:
 https://www.figma.com/file/Ic4xGtNCFXLK2KaYTPLRQH/Sudu-Web?node-id=0%3A1
