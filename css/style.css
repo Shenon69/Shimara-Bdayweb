@@ -1,1 +1,13 @@
-/*# sourceMappingURL=style.css.map */
+:root {
+  --pri-col: #E6C2AC;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--pri-col);
+}/*# sourceMappingURL=style.css.map */
