@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 :root{
     --pri-col: #E6C2AC;
+    --sec-col: #4F0000;
 }
 
 
@@ -7,6 +10,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat';
 }
 
 
@@ -14,6 +18,50 @@ body{
     background-color: var(--pri-col) ;
 }
 
-.wrapper{
+.wrapper-main{
+    margin-top: 30px;
+    width: 100vw;
+    height: 100vh;
+    margin-left: 114px;
+    // display: flexbox;
+    h1{
+        
+        font-size: 80px;
+        display: inline;
+
+        span{
+            color: white;
+        }
+    }
+
+    .hero-content{
+        width: 35%;
+        // display: inline-b;
+        p{
+            // width: 30%;
+            margin-top: 25px;
+        }
+
+        button{
+            margin-top: 45px;
+            padding: 10px;
+            width: 7rem;
+            height: 2.5rem;
+            border-radius: 50px;
+            outline: none;
+            border: none;
+            background-color: var(--sec-col);
+            color: white;
+            font-weight: bold;
+        }
+    }
+
+    img{
+        width: 25%;
+        position: absolute;
+        margin-top: -300px;
+        margin-left: 700px;
     
+    
+    }
 }
