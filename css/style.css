@@ -51,4 +51,44 @@ body {
   position: absolute;
   margin-top: -300px;
   margin-left: 700px;
+  min-width: 25%;
+}
+.wrapper-main button:hover {
+  background-color: #420303;
+  cursor: pointer;
+  box-shadow: 5px 10px rgba(0, 0, 0, 0.08);
+}
+
+.wrapper-second {
+  margin-top: 30px;
+  width: 100vw;
+  height: 100vh;
+  margin-left: 114px;
+}
+.wrapper-second .sec-page h1 {
+  font-size: 80px;
+  display: inline;
+}
+.wrapper-second .sec-page h1 span {
+  color: white;
+}
+.wrapper-second .sec-page p {
+  margin-top: 400px;
+}
+
+.wrapper-three {
+  margin-top: 30px;
+  width: 100vw;
+  height: 100vh;
+  margin-left: 114px;
+}
+.wrapper-three .three-page h1 {
+  font-size: 80px;
+  display: inline;
+}
+.wrapper-three .three-page h1 span {
+  color: white;
+}
+.wrapper-three .three-page img {
+  margin-top: 50px;
 }/*# sourceMappingURL=style.css.map */

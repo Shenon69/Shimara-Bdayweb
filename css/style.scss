@@ -61,7 +61,56 @@ body{
         position: absolute;
         margin-top: -300px;
         margin-left: 700px;
-    
-    
+        min-width: 25%;  
+    }
+
+
+    button:hover{
+        background-color: #420303;
+        cursor: pointer;
+        box-shadow: 5px 10px rgba(0,0,0,0.08);
+    }
+}
+
+.wrapper-second{
+    margin-top: 30px;
+    width: 100vw;
+    height: 100vh;
+    margin-left: 114px;
+    .sec-page{
+        h1{
+            font-size: 80px;
+            display:inline;
+            span{
+                color: white;
+            }
+            
+        }
+        //video comes here
+        p{
+            margin-top: 400px;
+        }
+    }
+
+}
+
+.wrapper-three{
+    margin-top: 30px;
+    width: 100vw;
+    height: 100vh;
+    margin-left: 114px;
+    .three-page{ 
+        h1{
+            font-size: 80px;
+            display:inline;
+            span{
+                color: white;
+            }
+        }
+        img{
+            margin-top: 50px;
+        }
+
+   
     }
 }
