@@ -86,16 +86,24 @@ body{
             }
             
         }
-        //video comes here
-        p{
-            margin-top: 400px;
+        .video-emb{
+            img{
+                width: 870px;
+                margin-top: 25px;
+                margin-left: 100px;
+            }
         }
+        p{
+            margin-left: 100px;
+        }
+       
+       
     }
 
 }
 
 .wrapper-three{
-    margin-top: 30px;
+    margin-top: 120px;
     width: 100vw;
     height: 100vh;
     margin-left: 114px;
@@ -112,5 +120,100 @@ body{
         }
 
    
+    }
+}
+
+.wrapper-four{
+    margin-top: 30px;
+    width: 100vw;
+    height: 100vh;
+    margin-left: 114px;
+    .four-page{
+        h1{
+            font-size: 80px;
+            display: inline;
+            span{
+                color: white;
+            }
+        }
+        .surprise{
+            // display: flex;
+            // .vid-one{
+            //     width: 300px;
+            //     margin-top: 25px;
+            //     border: 2px solid yellow;
+            //     // flex: 1;
+    
+            // }
+            // display: flex;
+            // .vid-two{
+            //     width: 300px;
+            //     margin-top: 25px;
+            //     border: 2px solid yellow;
+               
+            // }
+              .vid-one{
+                width: 300px;
+                margin-top: 25px;
+               
+    
+            }
+             .vid-two{
+                width: 300px;
+                margin-top: 50px;
+            }
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 20px;
+        }
+       
+
+    }
+}
+
+.wrapper-five{
+    .last-page{
+        margin-top: 90px;
+        width: 100vw;
+        height: 55vh;
+        // margin-left: 114px;
+        h1{
+            font-size: 80px;
+            display:inline;
+            span{
+                color: white;
+            }
+        }
+
+        button{
+            margin-top: 45px;
+            padding: 10px;
+            width: 7rem;
+            height: 2.5rem;
+            border-radius: 50px;
+            outline: none;
+            border: none;
+            background-color: var(--sec-col);
+            color: white;
+            font-weight: bold;
+        }
+
+        .footer{
+            footer{
+                .footer-para{
+                 h1{
+                         font-size: 80px;
+            
+                    }
+                
+            }
+            }
+          
+        }
+
+       
+
+
+
     }
 }
