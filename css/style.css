@@ -72,12 +72,17 @@ body {
 .wrapper-second .sec-page h1 span {
   color: white;
 }
+.wrapper-second .sec-page .video-emb img {
+  width: 870px;
+  margin-top: 25px;
+  margin-left: 100px;
+}
 .wrapper-second .sec-page p {
-  margin-top: 400px;
+  margin-left: 100px;
 }
 
 .wrapper-three {
-  margin-top: 30px;
+  margin-top: 120px;
   width: 100vw;
   height: 100vh;
   margin-left: 114px;
@@ -91,4 +96,59 @@ body {
 }
 .wrapper-three .three-page img {
   margin-top: 50px;
+}
+
+.wrapper-four {
+  margin-top: 30px;
+  width: 100vw;
+  height: 100vh;
+  margin-left: 114px;
+}
+.wrapper-four .four-page h1 {
+  font-size: 80px;
+  display: inline;
+}
+.wrapper-four .four-page h1 span {
+  color: white;
+}
+.wrapper-four .four-page .surprise {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+.wrapper-four .four-page .surprise .vid-one {
+  width: 300px;
+  margin-top: 25px;
+}
+.wrapper-four .four-page .surprise .vid-two {
+  width: 300px;
+  margin-top: 50px;
+}
+
+.wrapper-five .last-page {
+  margin-top: 90px;
+  width: 100vw;
+  height: 55vh;
+}
+.wrapper-five .last-page h1 {
+  font-size: 80px;
+  display: inline;
+}
+.wrapper-five .last-page h1 span {
+  color: white;
+}
+.wrapper-five .last-page button {
+  margin-top: 45px;
+  padding: 10px;
+  width: 7rem;
+  height: 2.5rem;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  background-color: var(--sec-col);
+  color: white;
+  font-weight: bold;
+}
+.wrapper-five .last-page .footer footer .footer-para h1 {
+  font-size: 80px;
 }/*# sourceMappingURL=style.css.map */
