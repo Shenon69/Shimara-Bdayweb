@@ -16,12 +16,12 @@ body {
 }
 
 .container {
-  margin: 5% 10% 5% 10%;
+  margin: 2% 10% 5% 10%;
   height: 100vh;
   overflow: hidden;
 }
 .container .heading {
-  font-size: 400%;
+  font-size: 4vw;
   display: flex;
   justify-content: flex-start;
 }
@@ -37,8 +37,9 @@ body {
   width: 50%;
   height: 10%;
   margin-top: 2%;
-  font-size: 130%;
+  font-size: 1.2vw;
 }
 .container .content-and-image .hero-img {
-  transform: translateY(-10rem);
+  transform: translateY(-10vh);
+  width: 35%;
 }/*# sourceMappingURL=style.css.map */
