@@ -208,12 +208,12 @@ body{
 
 .container{
     
-    margin: 5% 10% 5% 10%;
+    margin: 2% 10% 5% 10%;
     height: 100vh;
     overflow: hidden;
 
     .heading {
-        font-size: 400%;
+        font-size: 4vw;
         display: flex;
         justify-content: flex-start;  
         
@@ -226,19 +226,21 @@ body{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        // align-items: center;
     
         p{
             
             width: 50%;
             height: 10%;
             margin-top: 2%;
-            font-size: 130%;
+            font-size: 1.2vw;
             // border: 1px solid white;
             
         }
 
         .hero-img{
-            transform: translateY(-10rem);
+            transform: translateY(-10vh);
+            width: 35%;
         }
     
     
