@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
-:root{
+:root {
     --pri-col: #E6C2AC;
     --sec-col: #4F0000;
 }
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -14,8 +14,8 @@
 }
 
 
-body{
-    background-color: var(--pri-col) ;
+body {
+    background-color: var(--pri-col);
 }
 
 // .wrapper-main{
@@ -25,7 +25,7 @@ body{
 //     margin-left: 114px;
 //     // display: flexbox;
 //     h1{
-        
+
 //         font-size: 80px;
 //         display: inline;
 
@@ -84,7 +84,7 @@ body{
 //             span{
 //                 color: white;
 //             }
-            
+
 //         }
 //         .video-emb{
 //             img{
@@ -96,8 +96,8 @@ body{
 //         p{
 //             margin-left: 100px;
 //         }
-       
-       
+
+
 //     }
 
 // }
@@ -119,7 +119,7 @@ body{
 //             margin-top: 50px;
 //         }
 
-   
+
 //     }
 // }
 
@@ -143,33 +143,33 @@ body{
 //             //     margin-top: 25px;
 //             //     border: 2px solid yellow;
 //             //     // flex: 1;
-    
+
 //             // }
 //             // display: flex;
 //             // .vid-two{
 //             //     width: 300px;
 //             //     margin-top: 25px;
 //             //     border: 2px solid yellow;
-               
+
 //             // }
 //               .vid-one{
 //                 width: 300px;
 //                 margin-top: 25px;
-               
-    
+
+
 //             }
 //              .vid-two{
 //                 width: 300px;
 //                 margin-top: 25px;
-                
-              
+
+
 
 //             }
 //             display: grid;
 //             grid-template-columns: 1fr 1fr;
 //             grid-gap: 20px;
 //         }
-       
+
 
 //     }
 // }
@@ -200,14 +200,14 @@ body{
 //             color: white;
 //             font-weight: bold;
 //         }
-       
+
 
 
 //     }
 // }
 
-.container{
-    
+.container {
+
     margin: 2% 10% 5% 10%;
     height: 100vh;
     overflow: hidden;
@@ -215,35 +215,118 @@ body{
     .heading {
         font-size: 4vw;
         display: flex;
-        justify-content: flex-start;  
-        
-        span{
+        justify-content: flex-start;
+
+        span {
             color: white;
         }
     }
 
-    .content-and-image{
+    .content-and-image {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         // align-items: center;
-    
-        p{
-            
-            width: 50%;
-            height: 10%;
+
+        p {
+
+            // width: 50%;
+            // height: 10%;
             margin-top: 2%;
             font-size: 1.2vw;
             // border: 1px solid white;
-            
+
         }
 
-        .hero-img{
-            transform: translateY(-10vh);
-            width: 35%;
-        }
-    
-    
+    .div-2{
+        width: 40vw;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+
+    .hero-img {
+        transform: translateY(-10vh);
+        width: 100%;
+        display: inline-block;
+    }
+
+
+
     }
 }
 
+
+
+.btn{
+
+
+
+    .hit-shen{
+        border-radius: 50px;
+        outline: none;
+        border: none;
+        padding: 10px;
+        width: 7rem;
+        height: 2.5rem;
+        background-color: #4F0000;
+        color: white;
+        font-weight: bold;
+        margin-top: 40px;
+    }
+}
+
+
+// Responsivenss
+
+@media (max-width: 600px) {
+
+    .container {
+
+        margin: 2% 10% 5% 10%;
+        height: 100vh;
+        overflow: hidden;
+
+        .heading {
+            font-size: 4vw;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+
+            span {
+                color: white;
+            }
+        }
+
+        .content-and-image {
+            display: flex;
+            flex-direction: column !important;
+            justify-content: flex-start !important;
+            // border: 1px solid white;
+            align-items: center;
+
+
+
+            p {
+
+                width: 75%;
+                height: 10%;
+                margin-top: 5%;
+                font-size: 2vw;
+                text-align: center;
+
+
+            }
+
+            .hero-img {
+                display: none;
+
+            }
+
+
+
+        }
+    }
+}
