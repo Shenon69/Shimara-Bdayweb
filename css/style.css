@@ -34,12 +34,64 @@ body {
   justify-content: space-between;
 }
 .container .content-and-image p {
-  width: 50%;
-  height: 10%;
   margin-top: 2%;
   font-size: 1.2vw;
 }
+.container .content-and-image .div-2 {
+  width: 40vw;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .container .content-and-image .hero-img {
   transform: translateY(-10vh);
-  width: 35%;
+  width: 100%;
+  display: inline-block;
+}
+
+.btn .hit-shen {
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  padding: 10px;
+  width: 7rem;
+  height: 2.5rem;
+  background-color: #4F0000;
+  color: white;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    margin: 2% 10% 5% 10%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .container .heading {
+    font-size: 4vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .container .heading span {
+    color: white;
+  }
+  .container .content-and-image {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+    align-items: center;
+  }
+  .container .content-and-image p {
+    width: 75%;
+    height: 10%;
+    margin-top: 5%;
+    font-size: 2vw;
+    text-align: center;
+  }
+  .container .content-and-image .hero-img {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
