@@ -18,7 +18,6 @@ body {
 .container {
   margin: 2% 10% 5% 10%;
   height: 100vh;
-  overflow: hidden;
 }
 .container .heading {
   font-size: 4vw;
