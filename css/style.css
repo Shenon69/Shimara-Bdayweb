@@ -34,7 +34,7 @@ body {
   justify-content: space-between;
 }
 .container .content-and-image p {
-  margin-top: 2%;
+  margin-top: 5%;
   font-size: 1.2vw;
 }
 .container .content-and-image .div-2 {
@@ -60,7 +60,79 @@ body {
   background-color: #4F0000;
   color: white;
   font-weight: bold;
-  margin-top: 40px;
+  margin-top: 10%;
+}
+
+.content-2 {
+  display: flex;
+  flex-direction: column;
+}
+.content-2 .heading-relase {
+  display: flex;
+  justify-content: flex-start;
+  width: 100vw;
+}
+.content-2 .heading-relase h1 {
+  font-size: 7vw;
+}
+.content-2 .heading-relase h1 span {
+  color: white;
+}
+.content-2 .video-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 80px;
+}
+.content-2 .video-content .something {
+  display: flex;
+  align-self: flex-start;
+}
+
+.container .content-2-heading h1 {
+  font-size: 7vw;
+}
+.container .content-2-heading h1 span {
+  color: white;
+}
+.container .content-2-img {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.container .main-content-1 {
+  display: flex;
+  flex-direction: column;
+}
+.container .main-content-1 p {
+  font-size: 1vw;
+}
+.container .main-content-1 h1 {
+  font-size: 6.2vw;
+}
+.container .main-content-1 h1 span {
+  color: white;
+}
+.container .main-content-1 .content-3-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+.container .main-content-1 .content-3-content .video-element-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.container .main-content-1 .content-3-content .video-element-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 @media (max-width: 600px) {
