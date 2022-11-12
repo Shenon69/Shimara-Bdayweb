@@ -545,4 +545,57 @@ footer {
         }
     }
   }
+
+  #third-page{
+    .content-2-heading{
+        font-size: 4vw;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        // margin-left: -4rem;
+
+        span {
+            color: white;
+        }
+    }
+  }
+
+  #fourth-page{
+    .main-content-1{
+        .content-3-heading{
+            font-size: 4vw;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            // margin-left: -4rem;
+    
+            span {
+                color: white;
+            }
+        }
+
+        .content-3-content{
+            .video-element-left{
+                img{
+                    width: 50%;
+                }
+                // img.arrow1{
+                //     display: hidden;
+                // }
+            }
+
+            .video-element-right{
+               justify-content: flex-end;
+                img{
+                    width: 50%;
+                }
+
+                .arrow2{
+                    display: hidden;
+                }
+
+            }
+        }
+    }
+  }
 }

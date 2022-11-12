@@ -290,4 +290,34 @@ footer .credits .line {
   #second-page .content-2 img {
     width: 100%;
   }
+  #third-page .content-2-heading {
+    font-size: 4vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  #third-page .content-2-heading span {
+    color: white;
+  }
+  #fourth-page .main-content-1 .content-3-heading {
+    font-size: 4vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  #fourth-page .main-content-1 .content-3-heading span {
+    color: white;
+  }
+  #fourth-page .main-content-1 .content-3-content .video-element-left img {
+    width: 50%;
+  }
+  #fourth-page .main-content-1 .content-3-content .video-element-right {
+    justify-content: flex-end;
+  }
+  #fourth-page .main-content-1 .content-3-content .video-element-right img {
+    width: 50%;
+  }
+  #fourth-page .main-content-1 .content-3-content .video-element-right .arrow2 {
+    display: hidden;
+  }
 }/*# sourceMappingURL=style.css.map */
