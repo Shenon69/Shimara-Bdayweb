@@ -501,9 +501,48 @@ footer {
                 text-align: center;
             }
 
+            .btn{
+                margin-top: 18rem;
+                margin-left: 2.6rem;
+                .hit-shen {
+                    border-radius: 50px;
+                    outline: none;
+                    border: none;
+                    padding: 10px;
+                    width: 5rem;
+                    height: 2.5rem;
+                    background-color: #4f0000;
+                    color: white;
+                    font-weight: bold;
+                    margin-top: 10%;
+                }
+
+            }
+
             .hero-img {
                 display: none;
             }
         }
     }
+
+  #second-page{
+    .content-2{
+       
+        .heading-relase{
+            font-size: 4vw;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            margin-left: -4rem;
+
+            span {
+                color: white;
+            }
+        }
+
+        img{
+            width: 100%;
+        }
+    }
+  }
 }
