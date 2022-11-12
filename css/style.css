@@ -258,7 +258,36 @@ footer .credits .line {
     font-size: 2vw;
     text-align: center;
   }
+  .container .content-and-image .btn {
+    margin-top: 18rem;
+    margin-left: 2.6rem;
+  }
+  .container .content-and-image .btn .hit-shen {
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    width: 5rem;
+    height: 2.5rem;
+    background-color: #4f0000;
+    color: white;
+    font-weight: bold;
+    margin-top: 10%;
+  }
   .container .content-and-image .hero-img {
     display: none;
+  }
+  #second-page .content-2 .heading-relase {
+    font-size: 4vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: -4rem;
+  }
+  #second-page .content-2 .heading-relase span {
+    color: white;
+  }
+  #second-page .content-2 img {
+    width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */
