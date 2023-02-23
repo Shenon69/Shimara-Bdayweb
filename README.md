@@ -5,5 +5,5 @@ https://shimara.netlify.app/
 Figma File:
 https://www.figma.com/file/Ic4xGtNCFXLK2KaYTPLRQH/Sudu-Web?node-id=0%3A1
 
-website for my girl friend
+Created this website as a birthday surprise
 
