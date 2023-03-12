@@ -24,7 +24,7 @@ function Footer() {
               rel="noreferrer"
             >
               {" "}
-              Wasath theekshana
+              Wasath Theekshana
             </a>
             as a present to Shimara Ferdinandez on her birthday
           </p>
