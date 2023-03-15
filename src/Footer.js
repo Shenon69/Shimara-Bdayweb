@@ -26,7 +26,7 @@ function Footer() {
               {" "}
               Wasath Theekshana
             </a>
-            as a present to Shimara Ferdinandez on her birthday
+            &nbsp;as a present to Shimara Ferdinandez on her birthday
           </p>
         </div>
         <div></div>
