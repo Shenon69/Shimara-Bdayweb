@@ -54,6 +54,23 @@ function Hero() {
           </button> */}
         </div>
       </div>
+      <div className="my-36">
+        <m.div
+          initial={{ y: 100, opacity: 0 }}
+          transition={{ duration: 1.5 }}
+          whileInView={{ y: 0, opacity: 1 }}
+          viewport={{ once: true }}
+          className=" p-5"
+        >
+          <p className="text-center font-bold text-4xl lg:text-7xl">
+            "Do the best you can, it will be more than enough. <br /> You got
+            this WADAACHCHI!"
+          </p>
+          <p className="text-center text-gray-600 italic mt-5 lg:text-right lg:pr-16 lg:text-2xl">
+            -Jelly Toffee-
+          </p>
+        </m.div>
+      </div>
     </section>
   );
 }
