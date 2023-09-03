@@ -11,7 +11,8 @@ function Hero() {
         viewport={{ once: true }}
         className="text-4xl font-bold md:text-6xl lg:text-8xl lg:pl-10 lg:max-w-[80%]"
       >
-        All the best to your exams <span className="text-white">Princess</span>!
+        Congratsss Angel! You are Super{" "}
+        <span className="text-white">Amazing</span>!
       </m.h1>
       <div className="flex flex-col lg:flex-row">
         <div className="w-auto">
@@ -33,20 +34,30 @@ function Hero() {
             viewport={{ once: true }}
           >
             {" "}
-            As you embark on your AL exams, I wanted to send you a heartfelt
-            message of encouragement and support. <br /> You are about to
-            showcase your incredible knowledge and abilities, and I have no
-            doubt that you will soar through each paper with grace and
-            brilliance. Remember, after you complete each exam, take a moment to
-            celebrate your accomplishments and let go of any lingering doubts or
-            worries. Trust in your preparation and the hard work you've put in.
-            Each paper is an opportunity for you to shine, and you have the
-            power to seize it. I believe in you wholeheartedly, and I want you
-            to know that you are not alone in this journey. Lean on your
-            strength, resilience, and determination to conquer every challenge
-            that comes your way. Stay focused, remain calm, and let your passion
-            guide you. Go out there and ace these exams, my love. Your future
-            awaits, and I am here, cheering you on every step of the way.
+            I wanted to take a moment to express my immense pride and joy as I
+            congratulate you on your exceptional A-Level exam results. Your
+            achievements have left me absolutely awestruck, and I couldn't be
+            happier for you. You have shown not only incredible intelligence but
+            also an unwavering determination and work ethic that truly set you
+            apart. These results are a testament to the countless hours of
+            studying, the dedication you poured into your education, and your
+            unyielding commitment to excellence. <br /> It's no surprise that
+            you have excelled so brilliantly because I've always known you to be
+            a remarkable individual with boundless potential. As I look at your
+            accomplishments, I am filled with admiration and gratitude for
+            having you in my life. Your success is a reflection of your
+            character, and it serves as an inspiration to everyone fortunate
+            enough to know you. You've proven that with passion, perseverance,
+            and a relentless pursuit of your goals, there are no limits to what
+            you can achieve. As you stand on the threshold of an exciting new
+            chapter in your life, I have every confidence that you will continue
+            to achieve greatness in all that you do. Your journey is just
+            beginning, and I am excited to witness the many more incredible
+            milestones that lie ahead for you. Remember, this moment is a
+            testament to your hard work and determination, but it also reflects
+            the love and support of those who believe in you. I am incredibly
+            proud to be one of those people, cheering you on every step of the
+            way.
           </m.p>
 
           {/* <button className="border-none rounded-[4rem] bg-[#4F0000] text-white px-2.5 py-1.5 text-[0.9rem] mt-4 lg:mt-10">
@@ -63,8 +74,7 @@ function Hero() {
           className=" p-5"
         >
           <p className="text-center font-bold text-4xl lg:text-7xl">
-            "Do the best you can, it will be more than enough. <br /> You got
-            this WADAACHCHI!"
+            "I am so so so proud of you princess. <br /> You did your best!"
           </p>
           <p className="text-center text-gray-600 italic mt-5 lg:text-right lg:pr-16 lg:text-2xl">
             -Jelly Toffee-
